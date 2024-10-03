@@ -18,3 +18,7 @@ distributor:
         grpc:
         thrift_compact:
         thrift_binary:
+    otlp:
+      protocols:
+        http:
+        grpc:
