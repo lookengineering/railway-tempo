@@ -5,6 +5,6 @@ FROM grafana/tempo:${VERSION}
 
 EXPOSE ${PORT}
 
-COPY ./tempo.yaml /etc/tempo.yaml
+COPY tempo.yaml /etc/tempo.yaml
 
 CMD ["-config.file=/etc/tempo.yml"]
